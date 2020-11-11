@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">puzzle</string>
+    <string name="about_text">图片华容道属于滑块类游戏，通过移动图片，完成拼图。</string>
+</resources>

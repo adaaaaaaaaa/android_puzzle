@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Default_game"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_game_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+    ></TextView>
+    <TextView
+        android:id="@+id/text_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_place2"
+        android:layout_below="@id/text_game_num"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="目前移动步数 :  0"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/text_move_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_move"
+        android:layout_toRightOf="@id/img_place2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="记录最短步数 :  无记录"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:id="@+id/img_place2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/text_game_num"></ImageView>
+    <GridLayout
+        android:id="@+id/gl_layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="3" />
+</RelativeLayout>

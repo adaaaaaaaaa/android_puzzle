@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Default_mode"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <TextView
+        android:id="@+id/text_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单模式"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp">
+    </TextView>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/game"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_marginBottom="30dp">
+            <Button android:id="@+id/game_1"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img1"
+                android:layout_marginRight="10dp"
+                android:text="第一关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img2"
+                android:layout_marginRight="10dp"
+                android:text="第二关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_3"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img3"
+                android:text="第三关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="30dp">
+            <Button android:id="@+id/game_4"
+                android:layout_height="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img4"
+                android:text="第四关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_5"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img5"
+                android:layout_marginRight="10dp"
+                android:text="第五关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_6"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img6"
+                android:text="第六关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/game_7"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img7"
+                android:layout_marginRight="10dp"
+                android:text="第七关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_8"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img8"
+                android:layout_marginRight="10dp"
+                android:text="第八关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+            <Button android:id="@+id/game_9"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/img9"
+                android:text="第九关"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF">
+            </Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

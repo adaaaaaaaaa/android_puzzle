@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:id="@+id/music"
+        android:key="music"
+        android:title="Music"
+        android:defaultValue="true" />
+</PreferenceScreen>

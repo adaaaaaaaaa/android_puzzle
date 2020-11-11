@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backimg"
+    android:gravity="center"
+    android:padding="30dip">
+
+    <TextView
+        android:text="图片华容道"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="图库自由选取"
+        android:background="#C7EFEFF1"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/default_mode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="闯关模式"
+        android:background="#C8EFEFF1"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏说明"
+        android:background="#C8EFEFF1"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出游戏"
+        android:background="#C8EFEFF1"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+</LinearLayout>
